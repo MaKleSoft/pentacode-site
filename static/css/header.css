@@ -2,7 +2,7 @@ header {
     width: 100%;
     font-size: 110%;
     position: sticky;
-    background: white;
+    background: var(--color-bg);
     top: 0;
     z-index: 10;
     padding: 0 2em;
@@ -23,6 +23,8 @@ header .btn {
     font-weight: bold;
     padding: 0.4em 0.8em;
     border-radius: 8px;
+    --color-highlight: white;
+    --color-bg: var(--blue);
 }
 
 header nav.sections ul li:not(:last-child),
